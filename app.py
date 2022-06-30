@@ -35,6 +35,6 @@ app.layout = html.Div([
         ], className="gross-profit-graphs"),
     ])
 ])
-if __name__ == '__main__':
+if __name__ == '__app__':
     app.run_server(debug=True)
 
