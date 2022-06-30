@@ -4,8 +4,10 @@ import plotly.express as px
 from dash import dcc
 from dash import html
 import plotly.graph_objects as go
+import os
 
 app = dash.Dash(__name__)
+server = app.server
 
 data = pd.read_csv(r"C:\Users\moham\PycharmProjects\pythonProject2\100 Sales Records.csv")
 
