@@ -8,7 +8,7 @@ import os
 
 app = dash.Dash(__name__)
 server = app.server
-ss
+
 data = pd.read_csv(r"C:\Users\moham\PycharmProjects\pythonProject2\100 Sales Records.csv")
 
 fig = px.bar(data, x="Item Type", y="Total Profit", color="Region", title="Total Profit By Item Type and Region")
